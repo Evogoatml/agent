@@ -1,0 +1,3 @@
+{
+  "last_response": "\u274c Ollama error: {\"error\":\"model requires more system memory than is currently available unable to load full model on GPU\"}"
+}
