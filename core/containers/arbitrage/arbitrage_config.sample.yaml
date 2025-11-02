@@ -1,0 +1,18 @@
+# Sample fee overrides and settings (optional, not loaded by script but for your notes)
+# If you want fees different from defaults, edit DEFAULT_TAKER_FEES in the script.
+# Withdrawal fees matter only if you run with --inventory_mode 0.
+# Example realistic tweaks:
+# DEFAULT_TAKER_FEES = {
+#   "binance": 0.001,
+#   "coinbase": 0.004,
+#   "kraken": 0.002,
+#   "kucoin": 0.001,
+#   "bitfinex": 0.002,
+# }
+# WITHDRAWAL_FEES = {
+#   "binance": {"USDT": 1.0, "USDC": 1.0, "USD": 0.0},
+#   "coinbase": {"USDT": 5.0, "USDC": 5.0, "USD": 0.0},
+#   "kraken": {"USDT": 5.0, "USDC": 5.0, "USD": 0.0},
+#   "kucoin": {"USDT": 1.0, "USDC": 1.0, "USD": 0.0},
+#   "bitfinex": {"USDT": 5.0, "USDC": 5.0, "USD": 0.0},
+# }
